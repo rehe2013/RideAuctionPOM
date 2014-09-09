@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13607" started-at="2014-08-25T22:07:34Z" finished-at="2014-08-25T22:07:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13607" started-at="2014-08-25T22:07:34Z" finished-at="2014-08-25T22:07:48Z">
+      <class name="com.rideauction.webtest.test.bid.TestPointToPoinBidtPage">
+        <test-method status="PASS" signature="runBeforeEachMethod(java.lang.reflect.Method)[pri:0, instance:com.rideauction.webtest.test.bid.TestPointToPoinBidtPage@636b1b61]" name="runBeforeEachMethod" is-config="true" duration-ms="7350" started-at="2014-08-25T15:07:34Z" finished-at="2014-08-25T15:07:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rideauction.webtest.test.bid.TestPointToPoinBidtPage.testGetPrices()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runBeforeEachMethod -->
+        <test-method status="PASS" signature="testGetPrices()[pri:0, instance:com.rideauction.webtest.test.bid.TestPointToPoinBidtPage@636b1b61]" name="testGetPrices" duration-ms="6236" started-at="2014-08-25T15:07:42Z" finished-at="2014-08-25T15:07:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPrices -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.rideauction.webtest.test.bid.TestPointToPoinBidtPage@636b1b61]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2014-08-25T15:07:48Z" finished-at="2014-08-25T15:07:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetPrices status=SUCCESS method=TestPointToPoinBidtPage.testGetPrices()[pri:0, instance:com.rideauction.webtest.test.bid.TestPointToPoinBidtPage@636b1b61] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- com.rideauction.webtest.test.bid.TestPointToPoinBidtPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
